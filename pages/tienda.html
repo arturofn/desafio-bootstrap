@@ -13,6 +13,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="container-fluid">
     <header>
@@ -63,144 +64,88 @@
             </div>
           </nav>
     </header>
-    <!-- <header>
-        <div class="header">
-            <div>
-                <a href="/index.html"><img src="/img/logo solutitec blanco.png" alt="logo" class="logoPrincipal"></a>
-            </div>     
-        
-            <div>
-                <nav class="navSearchBar">
-                    <input id="buscador" type="text" placeholder="Buscar producto">
-                </nav>
-            </div>    
-        
-            <div>
-                <nav class="carritoCompras">
-                    <img src="/img/carrito-compras.png" alt="carrito-compras" class="carrito">
-                </nav>
-            </div>
-        </div>
-        
-        <div class="menuPrincipal">
-            <nav class="navMenuPrincipal">
-                <ul>
-                    <li class="headerMenu"><a href="/index.html">Inicio</a></li>
-                    <li class="headerMenu">Tienda</li>
-                    <li class="headerMenu"><a href="cómo_comprar.html">¿Cómo comprar?</a></li>
-                    <li class="headerMenu"><a href="mi_cuenta.html">Mi Cuenta</a></li>
-                    <li class="headerMenu"><a href="contacto.html">Contacto</a></li>   
-                </ul>            
-            </nav>
-        </div>
-        
-    </header> -->
+
     <main>
         <section id="banner">
             <div>
-                <img src="img/banner home.jpg" alt="" id="bannerHome">
+                <img src="../img/banner home.jpg" alt="" id="bannerHome">
             </div>
         </section>
 
                
-        <section class="categorias1">    
+        <!-- Sección Categorías -->
+               
+        <section class="container categorias1" data-aos="fade-up" data-aos-duration="1000">    
             
             <div>
                 <h2 class="animate__animated animate__rubberBand">Categorías</h2>            
             </div>
             
-            <div class="padreCategorias">
+            <div class="padreCategorias row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
                 <div class="categorias">
-                    <div>
+                    
                         <img src="/img/Bracelet M4.png" alt="">
-                    </div>                    
+                                        
                 </div>
-
+  
                 <div class="categorias">
-                    <div>
+                    
                         <img src="/img/Halion w270.png" alt="">
-                    </div>                    
+                                        
                 </div>
-
+  
                 <div class="categorias">
-                    <div>
+                    
                         <img src="/img/T5.png" alt="">
-                    </div>                    
+                                        
                 </div>
             </div>
             
-        </section>    
-
-        <h2 class="animate__animated animate__rubberBand">Productos</h2>    
-
-        <section class="productos1">
-            <div>   
-                <div class="productos">
-                    <div>
-                        <img src="/img/Bracelet M4.png" alt="">
-                    </div>    
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>    
-                </div>
+          </section>    
+  
+          <!-- Sección Productos -->
+  
+          
+          <section class="container productos1" data-aos="fade-up" data-aos-duration="1500">
+  
+            <div>
+              <h2 class="animate__animated animate__rubberBand">Productos</h2>
             </div>
+  
+            <div class="padreProductos row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 fila1">   
+                <div class="col productos">                  
+                        <img src="/img/Bracelet M4.png" alt="">                  
+                        <button class="comprar">Comprar</button>                      
+                </div>          
             
-            <div>
-                <div class="productos">
-                    <div>
+                <div class="col productos">                  
                         <img src="/img/Halion w270.png" alt="">
-                    </div>
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>  
+                        <button class="comprar">Comprar</button>                    
                 </div>
-            </div>
-
-            <div>    
-                <div class="productos">
-                    <div>
-                        <img src="/img/T5.png" alt="">
-                    </div>
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>  
+                
+                <div class="col productos">                  
+                        <img src="/img/T5.png" alt="">                  
+                        <button class="comprar">Comprar</button>                    
                 </div>
-            </div>
-
-            <div>
-                <div class="productos">
-                    <div>
-                        <img src="/img/Bracelet M4.png" alt="">
-                    </div>    
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>    
-                </div>
-            </div>
-
-            <div>    
-                <div class="productos">
-                    <div>
+  
+                <div class="col productos">                
+                      <img src="/img/Bracelet M4.png" alt="">                  
+                      <button class="comprar">Comprar</button>                    
+                </div>          
+            
+                <div class="col productos">                  
                         <img src="/img/Halion w270.png" alt="">
-                    </div>
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>  
+                        <button class="comprar">Comprar</button>                    
                 </div>
+                
+                <div class="col productos">                  
+                        <img src="/img/T5.png" alt="">                  
+                        <button class="comprar">Comprar</button>                    
+                </div>       
+  
             </div>
-
-            <div>
-                <div class="productos">
-                    <div>
-                        <img src="/img/T5.png" alt="">
-                    </div>
-                    <div>
-                        <button class="comprar">Comprar</button>
-                    </div>  
-                </div>
-            </div>
-
-        </section>          
+  
+          </section>          
 
     </main>
     </main>
@@ -222,6 +167,14 @@
 
     <!-- Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    AOS.init();
+    </script>
 
 </body>
 </html>

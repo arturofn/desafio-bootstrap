@@ -174,29 +174,6 @@ footer {
         width: 30%;
     }
 
-    .padreCategorias {
-        display: flex;        
-        flex-direction: column;                      
-    }
-
-    .padreProductos {
-        display: flex;        
-        flex-direction: column;              
-    }
-
-    .categorias {
-        margin-bottom: 25px;
-    }
-
-    .productos {
-        margin-bottom: 25px;
-    }
-
-    .fila2 {
-        margin-top: -50px;
-    }
-
-
     .navSearchBar {
         display: none;
     }
