@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$color-subs:gray;
+$padding1:20px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.logoPrincipal {
+    display: inline-block;
+    width: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMenu {
+    color: white;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;   
+}
+
+#buscador {
+    width: 500px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    color: black;
+    display: inline-block;
+    padding: $padding1;
+    font-family: 'Lato', sans-serif;
+}
+
+.menuPrincipal {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navSearchBar {
+    margin-right: 150px;
+}
+
+
+.categorias1 {
+    grid-area: categorias1;
+
+    .padreCategorias {    
+        padding: $padding1;
+        margin-bottom: 20px;          
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .categorias {
+            width: auto;    
+            border: 1px solid grey;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all, 0.3s;
+
+                &:hover {
+                    transform: scale(1.1,1.1);
+                }
+        }
+    }    
+}
+
+.productos1 {
+    grid-area: productos1;
+    
+    .padreProductos {
+        padding: $padding1;
+        margin-bottom: 20px;          
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-between;
+
+        .productos {
+            width: auto;
+            border: 1px solid grey;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }    
+}
+
+
+
+
+
+#banner {
+    grid-area: banner;
+}
+
+#bannerHome {
+    width: 100%;
+}
+
+section img {
+    width: 250px;
+}
+
+h2 {
+    padding: $padding1;
+    color: $color-subs;
+    text-align: center;    
+}
+
+.carrito {
+    width: 40px;
+}
+
+.carritoCompras {
+    display: inline-block;
+}
+
+.comprar {
+    background-image: linear-gradient(to right, #1f4037, #99f2c8);
+    border-radius: 25px;
+    color: white;
+    padding: 10px 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    transition: all,0.3s;
+
+        &:hover {
+            transform: scale(1.1,1.1);
+        }
+    }
+
+
+footer {
+    background-color: #eeeeee;
+    grid-area: footer;
+}
+
+#comoComprar {
+    padding: $padding1;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+}
+
+/*media querie*/
+
+@media (max-width:599px) {
+    .logoPrincipal {
+        width: 70%;
+    }
+
+    .carritoCompras {
+        width: 30%;
+    }
+
+    .navSearchBar {
+        display: none;
+    }
+
+    .menuPrincipal {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+
+    
+}
+
+/* página "mi cuenta" */
+
+.contenedorAcceder {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textoAcceder {
+    text-align: center;
+}
+
+.formAcceso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+input {
+    border-radius: 25px;
+}
+
+/* página "contacto" */
+
+.contenedorContacto {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    justify-content: center;
+    gap: 100px;   
+}
+
+/*modificando el nav bootstrap*/
