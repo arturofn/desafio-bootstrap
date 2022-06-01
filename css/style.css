@@ -44,6 +44,13 @@
   padding: 10px;
   border-radius: 25px; }
 
+.encabezado {
+  background-color: gainsboro; }
+
+h1 {
+  text-align: center;
+  padding: 20px; }
+
 footer {
   display: flex;
   flex-direction: column;

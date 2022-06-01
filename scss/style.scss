@@ -29,6 +29,15 @@ $padding1:20px;
     border-radius: 25px;
 }
 
+.encabezado {
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+    padding: $padding1;
+}
+
 footer {
     display: flex;
     flex-direction: column;
