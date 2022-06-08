@@ -165,7 +165,7 @@ h2 {
         background-image: linear-gradient(to right, #1f4037, #99f2c8);
         border-radius: 25px;
         color: white;
-        padding: 10px 10px;
+        padding: 10px 30px;
         margin-top: 10px;
         margin-bottom: 10px;
         border: 1px solid grey;
@@ -220,15 +220,6 @@ footer {
     
 }
 
-/* página "mi cuenta" */
-
-.contenedorAcceder {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 20% 20%;
-    justify-content: center;
-    gap: 100px;
-}
 
 .textoAcceder {
     text-align: center;
@@ -246,15 +237,6 @@ input {
     border-radius: 25px;
 }
 
-/* página "contacto" */
-
-.contenedorContacto {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 20% 20%;
-    justify-content: center;
-    gap: 100px;   
-}
 
 /*modificando el nav bootstrap*/
 
