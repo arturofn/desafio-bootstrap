@@ -50,21 +50,38 @@ h1 {
   text-align: center;
   padding: 20px; }
 
+/*.btnRedes {
+    background-color: #1f4037;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 0px;
+    transition: all,0.5s;
+
+        &:hover {
+            background-color: #ffffff;
+            border: 0.5px solid gray;
+        }
+    }*/
+i {
+  color: white;
+  background-color: #1f4037;
+  border-radius: 18px;
+  padding: 8px 10px; }
+  i:hover {
+    color: #1f4037;
+    background-color: #ffffff;
+    border: 0.5px solid silver; }
+
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: #eeeeee;
+  grid-area: footer; }
 
-.footer {
-  color: black;
-  display: inline-block;
-  padding: 20px;
-  font-family: 'Lato', sans-serif; }
-
-.redes {
-  width: 20%;
-  display: flex;
-  justify-content: space-between; }
+footer a {
+  text-decoration: none;
+  color: black; }
 
 .menuPrincipal {
   display: flex;
@@ -72,6 +89,9 @@ footer {
 
 .navSearchBar {
   margin-right: 150px; }
+
+.subtitleCategoria {
+  font-size: 1.5rem; }
 
 .categorias1 {
   grid-area: categorias1; }
@@ -150,9 +170,8 @@ h2 {
   .btnCta:hover {
     transform: scale(1.1, 1.1); }
 
-footer {
-  background-color: #eeeeee;
-  grid-area: footer; }
+ul {
+  list-style-type: none; }
 
 #comoComprar {
   padding: 20px; }
@@ -202,3 +221,6 @@ input {
 
 .img-fluid {
   width: 60%; }
+
+.disclaimer {
+  display: none; }
